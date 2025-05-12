@@ -1,9 +1,9 @@
-## Project: k-File ⇄ BRL‑CAD Converters
+## Project: k-File ⇄ BRL‑CAD Converters - Andrea Braghin
 
 This repository hosts weekly progress reports for the Google Summer of Code 2025 project **Improving the k-File to BRL‑CAD Converter & proposal for BRL‑CAD database to k-File converter**.
 
  **Project Summary:**
-> This project is intended to improve the interoperability between LS‑DYNA and BRL‑CAD by enhancing the existing **k → g** converter and by implementing a new **g → k** converter. The primary goal is to facilitate a seamless data exchange between LS‑DYNA keyword files and BRL‑CAD geometry databases, ultimately streamlining workflows for users who need to transition between advanced simulation and detailed geometric modeling.
+> This project is intended to improve the interoperability between LS‑DYNA and BRL‑CAD by enhancing the existing **k → g** converter and by implementing a new **g → k** converter. The primary goal is to facilitate a seamless data exchange between LS‑DYNA keyword files and BRL‑CAD geometry databases, ultimately streamlining workflows for users who need to transition between simulation and geometric modeling.
 
 ## Project Schedule (Europe/Rome Timezone)
 
