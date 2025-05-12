@@ -14,3 +14,12 @@ This repository hosts weekly progress reports for the Google Summer of Code 2025
 | August 25, 2025 – September 01, 2025    | Contributor Final Submission   | Sep 01, 2025 20:00 CEST |
 | September 01, 2025 – September 08, 2025 | Mentor Final Evaluation        | Sep 08, 2025 20:00 CEST |
 
+# Weekly Project Reports
+
+Below is the list of all weekly logs for the GSoC 2025 project:
+
+- [Week 1: Project kick-off](week1-report.md)
+- [Week 2: ...](week2-report.md)
+- [Week 3: ...](week3-report.md)
+- …
+- [Final Report](final-report.md)
