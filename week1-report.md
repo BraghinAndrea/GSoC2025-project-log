@@ -4,16 +4,23 @@
 
 ## 1. Goals for This Week
 
-*
+* 
 *
 *
 
 ## 2. Completed Tasks
 
-*  **Task A**: ...
-*  **Task B**: ...
+* Monday:
+
+* Tuesday:
+
+* Wednesday:
+  
+* Thursday:
+  
+* Friday:
 
 ## 3. In Progress & Issues
 
-*  **Task C**:...
+*  **Task ...**:...
 *  **Issues**: ...
