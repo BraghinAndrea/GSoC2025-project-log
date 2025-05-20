@@ -11,15 +11,16 @@ This repository hosts progress reports for the Google Summer of Code 2025 projec
 | Date Range                  | Description                                              | Deadline                |
 | --------------------------  | ------------------------------                           | ----------------------- |
 | June 2 - June 13            | Implement missing LS-DYNA features in k-g converter      |                         |
-| June 14 - June 29           | Contributor joins a Summer School on PINNs :star_struck: |                         |
+| June 14 - June 29           | Break due to prior commitments                           |                         |
 | June 30 - July 14           | Implement missing LS-DYNA features in k-g converter      |                         |
-| July 14 – July 18           | Midterm Evaluation :muscle:                              | July 18                  |
 | July 14 - August 17         | Break due to prior commitments                           |                         |
+| August 11 – August 15       | Midterm Evaluation :muscle:                              | August 15               |
 | August 18 – September 2     | Address *INCLUDE commands                                |                         |
 | September 3 – September 13  | Parts' origin tracking from k.file                       |                         |
 | September 14 – September 30 | Error fixing                                             |                         |
-| October 1 – October 31      | g-k converter first developing                           |                         |
-| November 1 – November  6    | Contributor Final Submission and evaluation   :muscle:   |     TBD                 |
+| October 1 – October 27      | g-k converter first developing                           |                         |
+| October 20 – October 27     | Contributor Final Submission                             |         October 27      |
+| October 27 – November  3    | Contributor Final Submission and evaluation   :muscle:   |     November 3          |
 
 
 # Project Reports
