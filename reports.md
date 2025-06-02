@@ -4,7 +4,7 @@
  ### Achievements:
 
  - Literature review - [LS-DYNA Keyword manual](https://ftp.lstc.com/anonymous/outgoing/web/ls-dyna_manuals/R15/LS-DYNA_Manual_Volume_I_R15.pdf) - selection of geometry-related features to be implemented.
- - *Element_Discrete_Sphere implementation in k_parser.cpp, to be tested.
+ - *Element_Discrete_Sphere implementation in k_parser.h and k_parser.cpp, to be tested.
  - *Element_Seatbelt implementation testing on [THUMS model](https://www.toyota.co.jp/thums/).
   
 ### Issues:
