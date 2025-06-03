@@ -13,7 +13,7 @@
 # June 3rd:
 ### Achievements:
 Further testing on *Element_Seatbelt on various keyword files. 
-By creating a 3-point seatbelt in LS-PrePost significant findings arised: the software allows the user to chose two different ways for creating a seatbelt part. A simpler 1D version an a so-called "mixed" 2D version with a higher number of customizable features and dimensions.
+By creating a 3-point seatbelt in LS-PrePost significant findings arised: the software allows the user to chose two different ways for creating a seatbelt part. A simpler "string", let's say 1D, version an a so-called "mixed" 2D version with a higher number of customizable features and dimensions.
 A single seatbelt part contains multiple arbs, each is linked to specific nodes so the overall shape of the part is easily obtainable. 
 
 <img width="500" alt="1Dseatbeelt" src="https://github.com/user-attachments/assets/12081b49-de0d-4b04-91d2-63ed6bf857d2" /> <img width="500" alt="2Dseatbelt" src="https://github.com/user-attachments/assets/5148ae54-e90a-4cf5-95c5-46a5fb9f7c7e" />
