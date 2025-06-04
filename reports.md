@@ -30,8 +30,12 @@ LS-DYNA dummy model inspired by [YT Video](https://www.youtube.com/watch?v=yte6D
 
 # June 4th:
 ### Achievements:
-  
+Improvements in k-g.cpp . Seatbelt geometry gets now written in BRL-CAD database following LS-PrePost coordinate system. Nodes coordinates are used as reference points for arbs elements.
+
+<img width="500" alt="1Dbeltmged" src="https://github.com/user-attachments/assets/a6988daf-f15e-4357-98ef-6a784a1e703c" />
+
 ### Issues:
+Dimensions of the seatbelt might need to be adjusted by tuning the scalar factor. In some cases it might be necessary to use shell elements following [LS-DYNA Keyword manual](https://ftp.lstc.com/anonymous/outgoing/web/ls-dyna_manuals/R15/LS-DYNA_Manual_Volume_I_R15.pdf) .
 
 # June 5th:
 ### Achievements:
