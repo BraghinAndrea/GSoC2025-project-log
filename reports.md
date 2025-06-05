@@ -39,5 +39,6 @@ Dimensions of the seatbelt might need to be adjusted by tuning the scalar factor
 
 # June 5th:
 ### Achievements:
-  
+Worked on k-g.cpp, kparser.cpp and kparser.h for *Element_Seatbelt and *Section_Seatbelt.
 ### Issues:
+Seatbelt loop is currently outside the main converter loop. Better access to Kdata is needed, a common iterator has to be found.
