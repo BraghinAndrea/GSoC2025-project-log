@@ -42,3 +42,9 @@ Dimensions of the seatbelt might need to be adjusted by tuning the scalar factor
 Worked on k-g.cpp, kparser.cpp and kparser.h for *Element_Seatbelt and *Section_Seatbelt.
 ### Issues:
 Seatbelt loop is currently outside the main converter loop. Better access to Kdata is needed, a common iterator has to be found.
+
+# June 6th:
+### Achievements:
+Finalizing first implementation for *Element_Seatbelt and *Section_Seatbelt. Opened a [Pull request](https://github.com/BRL-CAD/brlcad/pull/189#issue-3124559994)
+### Issues:
+Code might benefit from further improvements upon potential mentors' feedbacks.
