@@ -48,3 +48,14 @@ Seatbelt loop is currently outside the main converter loop. Better access to Kda
 Finalizing first implementation for *Element_Seatbelt and *Section_Seatbelt. Opened a [Pull request](https://github.com/BRL-CAD/brlcad/pull/189#issue-3124559994)
 ### Issues:
 Code might benefit from further improvements upon potential mentors' feedbacks.
+
+# June 7th:
+### Achievements:
+Working on mentors' advice after the previous PR
+### Issues:
+PR handling and presentation need to be refined
+
+# June 9th:
+### Achievements:
+Working on mentors' advice after the previous PR. Code cleaning
+### Issues:
