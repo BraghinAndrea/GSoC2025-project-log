@@ -55,6 +55,12 @@ Working on mentors' advice after the previous PR
 ### Issues:
 PR handling and presentation need to be refined
 
+# June 8th:
+### Achievements:
+Discrete sphere literature review and study. Created a LS-PrePost test model.
+<img width="500" alt="Sph" src="https://github.com/user-attachments/assets/9ee3d37d-640d-40a7-81f8-dafb382ebdbb" />
+### Issues:
+
 # June 9th:
 ### Achievements:
 Working on mentors' advice after the previous PR. Code cleaning
