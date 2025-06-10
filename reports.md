@@ -65,3 +65,10 @@ Discrete sphere literature review and study. Created a LS-PrePost test model.
 ### Achievements:
 Working on mentors' advice after the previous PR. Code cleaning
 ### Issues:
+
+# June 10th
+### Achievements:
+Improved [Pull Request](https://github.com/BRL-CAD/brlcad/pull/190)'s quality following mentors suggestions.
+
+### Issues:
+Struggled with Element_seatbelt implementation in k-g.cpp main loop. Feedbacks might be needed.
