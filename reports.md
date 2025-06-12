@@ -72,3 +72,16 @@ Improved [Pull Request](https://github.com/BRL-CAD/brlcad/pull/190)'s quality fo
 
 ### Issues:
 Struggled with Element_seatbelt implementation in k-g.cpp main loop. Feedbacks might be needed.
+
+# June 11th
+### Achievements:
+Worked on implementating Discrete_Sphere
+
+### Issues:
+Choosing the appropriate coordinate system for the spheres
+
+# June 12th
+### Achievements:
+Worked on Seatbelt PR upon mentor's suggestions merging Seatbelt in k-g.cpp main loop.
+
+
