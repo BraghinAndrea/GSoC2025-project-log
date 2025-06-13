@@ -84,4 +84,8 @@ Choosing the appropriate coordinate system for the spheres
 ### Achievements:
 Worked on Seatbelt PR upon mentor's suggestions merging Seatbelt in k-g.cpp main loop.
 
+# June 13th
+### Achievements:
+Worked on Discrete_Sphere implementation
+
 
