@@ -88,4 +88,5 @@ Worked on Seatbelt PR upon mentor's suggestions merging Seatbelt in k-g.cpp main
 ### Achievements:
 Worked on Discrete_Sphere implementation
 
-
+# June 14th
+Beginning of the break period
