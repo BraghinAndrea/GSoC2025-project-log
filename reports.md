@@ -90,3 +90,8 @@ Worked on Discrete_Sphere implementation
 
 # June 14th - June 29th
 Break period
+
+# June 30th
+### Achievements:
+Successfully merged the Seatbelt for loop inside the main loop in k-g.file
+Preparing PR
