@@ -99,3 +99,7 @@ Preparing PR
 # July 1st
 ### Achivements:
 Created [pull request](https://github.com/BRL-CAD/brlcad/pull/193) for seatbelt implementation after successfully integrate it in the main loop. Test on keyworkd file was successful.
+
+# July 2nd
+### Achievements:
+Worked on perfecting PR upon mentor suggeggestions
