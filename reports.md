@@ -97,9 +97,14 @@ Successfully merged the Seatbelt for loop inside the main loop in k-g.file
 Preparing PR
 
 # July 1st
-### Achivements:
+### Achievements:
 Created [pull request](https://github.com/BRL-CAD/brlcad/pull/193) for seatbelt implementation after successfully integrate it in the main loop. Test on keyworkd file was successful.
 
 # July 2nd
 ### Achievements:
 Worked on perfecting PR upon mentor suggeggestions
+
+# July 3nd
+### Achievements:
+Worked on perfecting PR upon mentor suggeggestions addressing redoundacies and some logic.
+
