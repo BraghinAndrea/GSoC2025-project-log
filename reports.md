@@ -108,3 +108,26 @@ Worked on perfecting PR upon mentor suggeggestions
 ### Achievements:
 Worked on perfecting PR upon mentor suggeggestions addressing redoundacies and some logic.
 
+# July 4th
+### Issues:
+Unable to convert element_seatbelt when composed by shell elements. Debugging
+
+# July 5th
+### Issues:
+Unable to convert element_seatbelt when composed by shell elements. Debugging
+
+# July 6th
+### Issues:
+Unable to convert element_seatbelt when composed by shell elements. Debugging
+
+# July 7th
+### Achievements:
+Found bug in k_parser.cpp preventing the conversion of shell elements.
+
+Successfully converted dummy keyword file containing both types of element_seatbelt.
+
+<img width="500" alt="07July" src="https://github.com/user-attachments/assets/a313ff10-6a4c-4396-b0c5-78806db93559" />
+
+
+
+
