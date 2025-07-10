@@ -139,4 +139,8 @@ Formatting and spacing editing in [PR-194](https://github.com/BRL-CAD/brlcad/pul
 
 Worked on Element_Discrete_Sphere too.
 
-
+# July 10th
+### Achievements:
+Progress toward Discrete_Sphere implementation, parsersing is working
+### Issues:
+Further testing is needed. Could not locate any funtion for drawing SPH, Geometry-wise. 
