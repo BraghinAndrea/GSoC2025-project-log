@@ -144,3 +144,13 @@ Worked on Element_Discrete_Sphere too.
 Progress toward Discrete_Sphere implementation, parsersing is working
 ### Issues:
 Further testing is needed. Could not locate any funtion for drawing SPH, Geometry-wise. 
+
+# July 11th
+### Achievements:
+Successfully converted Element_Discrete_Sphere from keyword file.
+
+<img width="500" alt="07July" src="https://github.com/user-attachments/assets/7bbec6c0-054e-47bf-9ebf-e7fa4fbb5a2b" />
+<img width="500" alt="07July" src="https://github.com/user-attachments/assets/9639db9a-8d84-46f2-9375-f7a90fd77a5b" />
+### Issues:
+Code cleanup and geometry.cpp implementation are needed.
+
