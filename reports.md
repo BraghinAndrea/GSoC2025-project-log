@@ -155,3 +155,10 @@ Successfully converted Element_Discrete_Sphere from keyword file.
 ### Issues:
 Code cleanup and geometry.cpp implementation are needed.
 
+# July 12th
+### Schievement:
+Improved the code for the element_discrete_sphere in k-g converter. First implementation is available at [PR195](https://github.com/BRL-CAD/brlcad/pull/195)
+
+### Issues:
+The newly created pr has to follow the merging of the previous Seatblet PR in case of acceptance. The code will then need to be updated, in particular k-g.cpp, k_parser.cpp and k_parser.h
+
