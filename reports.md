@@ -162,3 +162,5 @@ Improved the code for the element_discrete_sphere in k-g converter. First implem
 ### Issues:
 The newly created pr has to follow the merging of the previous Seatblet PR in case of acceptance. The code will then need to be updated, in particular k-g.cpp, k_parser.cpp and k_parser.h
 
+# July 13th
+Further testing on Discrete Sphere implementation. Literature review
