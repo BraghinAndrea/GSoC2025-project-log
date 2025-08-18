@@ -164,3 +164,10 @@ The newly created pr has to follow the merging of the previous Seatblet PR in ca
 
 # July 13th
 Further testing on Discrete Sphere implementation. Literature review
+
+# July 14th - August 17th
+Break Period as scheduled
+
+# August 18th
+Updated [PR195](https://github.com/BRL-CAD/brlcad/pull/195) following mentor's suggestions.
+
