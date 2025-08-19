@@ -171,3 +171,5 @@ Break Period as scheduled
 # August 18th
 Updated [PR195](https://github.com/BRL-CAD/brlcad/pull/195) following mentor's suggestions.
 
+# August 19th
+Creating new PR after PR194 with ElementSeatbelt was merged containing ElementDiscreteSphere too. Tested on keywords containing Seatbelt and DSph separately. Further testing is needed.
