@@ -183,3 +183,7 @@ still having problems with building the open PR.
 # August 22
 Working on Unexpected SECTION length in k-file. I'm unsure how to handle the error, because the section lines read variable handles only 3 cases 0 1 2, but when there are multiple sections defined under the same keyword the section lines read can take much larger values. additionally the number of cards for each section depends on the options of the keyword Section_shell.
 # August 23
+Working on Unexpected SECTION length in k-file. I'm exploring the idea of adding a variable that holds the number of cards included in each section_shell. becuase other wise there is no way to know that we finished reading the first section_shell.
+# August 24 
+Working on Unexpected SECTION length in k-file. adding the new variable seems to solve the problem but it's quite complicated to specify it's value, considering that different options creat different number of cards and different elemForm also changes the number of cards. for the current model adding the variable numberOfCardsInSection is solving the problem for section shell. facing the same problem for section_solid. I have to find a general solution for such problem.
+# August 25
