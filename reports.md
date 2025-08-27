@@ -173,3 +173,7 @@ Updated [PR195](https://github.com/BRL-CAD/brlcad/pull/195) following mentor's s
 
 # August 19th
 Creating new PR after PR194 with ElementSeatbelt was merged containing ElementDiscreteSphere too. Tested on keywords containing Seatbelt and DSph separately. Further testing is needed.
+# August 20 
+Working on the open PR, I have problems building the code. some link error. most likely related to missing changes I didn't push.
+I'm also exploring what to do next, 1- exploring the idea to standarize the element recognition in k-g.cpp because the use of node number looks like it will creat some conflicts. 2- a thing to do on the side is to fix all the errors that appears when converting the Yaris model. 
+# August 21
