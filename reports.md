@@ -181,7 +181,7 @@ Fixed the errors related to the *Part_Contact command, the option Contact increa
 Fixed the errors related to (Too short SECTION_BEAM in k-file) by limiting the size to only the attributes handeled in the code. also working on the error Unexpected SECTION length in k-file for the Section_Shell in the Yaris model. it seems that multiple sections are defined under one *section_shell keyword. 
 still having problems with building the open PR.
 # August 22
-Working on Unexpected SECTION length in k-file. I'm unsure how to handle the error, because the section lines read variable handles only 3 cases 0 1 2, but when there are multiple sections defined under the same keyword the section lines read can take much larger values. additionally the number of cards for each section depends on the options of the keyword Section_shell.
+Working on Unexpected SECTION length in k-file. I'm unsure how to handle the error, because the section lines read variable handles only 3 cases 0 1 2, but when there are multiple sections defined under the same keyword the section lines read can take much larger values. additionally the number of cards for each section depends on the options of the keyword Section_shell. on the side I'm still planning the standarization of element recongintion. 
 # August 23
 Working on Unexpected SECTION length in k-file. I'm exploring the idea of adding a variable that holds the number of cards included in each section_shell. becuase other wise there is no way to know that we finished reading the first section_shell.
 # August 24 
