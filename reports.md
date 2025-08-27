@@ -191,4 +191,4 @@ Risolved Unexpected SECTION length in k-file for section_shell and section_solid
 # August 26 
 Working on the error unexpected command section_discrete. still trying to figure out how to standarize the element recognition. 
 # August 27 
-submitted the PR and wating for mentor review. 
+submitted the PR and wating for mentor review. Reading documentation for understanding what to do next and make sure what I did is correct.
