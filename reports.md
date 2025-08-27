@@ -187,3 +187,4 @@ Working on Unexpected SECTION length in k-file. I'm exploring the idea of adding
 # August 24 
 Working on Unexpected SECTION length in k-file. adding the new variable seems to solve the problem but it's quite complicated to specify it's value, considering that different options creat different number of cards and different elemForm also changes the number of cards. for the current model adding the variable numberOfCardsInSection is solving the problem for section shell. facing the same problem for section_solid. I have to find a general solution for such problem.
 # August 25
+Risolved Unexpected SECTION length in k-file for section_shell and section_solid. Working on Unexpected Part length.
