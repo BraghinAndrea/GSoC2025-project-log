@@ -197,4 +197,5 @@ Solved the building error for the descreet sphere PR. and resarching the documen
 # August 29 
 opend PR for discreet sphere and working on Unexpected Section length error, trying to creat test cases to understand how to implement the code <img width="1917" height="1080" alt="image" src="https://github.com/user-attachments/assets/9d2f4186-e62b-488d-be41-e5dc848ee2ac" />
 it seems that the Title option comes at the end, I will try to creat files with multiple options and see if LS-DYNA opens them if I change the order of options. 
-I did some tests For LS-PrePost , the commands SECTION_SHELL_EFG_TITLE and SECTION_SHELL_TITLE_EFG are the same, but when saving the key word file again LS-PrePost uses this format SECTION_SHELL_EFG_TITLE
+I did some tests For LS-PrePost , the commands SECTION_SHELL_EFG_TITLE and SECTION_SHELL_TITLE_EFG are the same, but when saving the key word file again LS-PrePost uses this format SECTION_SHELL_EFG_TITL.
+It will take a while to creat all possible cases for testing working on it 
