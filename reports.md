@@ -194,3 +194,6 @@ Working on the error unexpected command section_discrete. still trying to figure
 submitted the PR and wating for mentor review. Reading documentation for understanding what to do next and make sure what I did is correct.
 # August 28 
 Solved the building error for the descreet sphere PR. and resarching the documentaion to improve the Unexpected length Error implimentation.  
+# August 29 
+opend PR for discreet sphere and working on Unexpected Section length error, trying to creat test cases to understand how to implement the code <img width="1917" height="1080" alt="image" src="https://github.com/user-attachments/assets/9d2f4186-e62b-488d-be41-e5dc848ee2ac" />
+it seems that the Title opetion comes at the end, I will try to creat files with multiple options and see if LS-DYNA opens them if I change the order of options. 
