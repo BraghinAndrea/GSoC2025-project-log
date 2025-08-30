@@ -200,4 +200,5 @@ it seems that the Title option comes at the end, I will try to creat files with 
 I did some tests For LS-PrePost , the commands SECTION_SHELL_EFG_TITLE and SECTION_SHELL_TITLE_EFG are the same, but when saving the key word file again LS-PrePost uses this format SECTION_SHELL_EFG_TITL.
 It will take a while to creat all possible cases for testing working on it 
 # August 30
-I have created testing files. for several cases but facing problems converting them. Getting some assersion error I don't know what is the problem
+I have created testing files. for several cases but facing problems converting them. Getting some assersion error I don't know what is the problem. 
+Found the error it's realted to the modifications I did in the privous PR, fixing and will continue to test 
