@@ -199,3 +199,5 @@ opend PR for discreet sphere and working on Unexpected Section length error, try
 it seems that the Title option comes at the end, I will try to creat files with multiple options and see if LS-DYNA opens them if I change the order of options. 
 I did some tests For LS-PrePost , the commands SECTION_SHELL_EFG_TITLE and SECTION_SHELL_TITLE_EFG are the same, but when saving the key word file again LS-PrePost uses this format SECTION_SHELL_EFG_TITL.
 It will take a while to creat all possible cases for testing working on it 
+# August 30
+I have created testing files. for several cases but facing problems converting them. Getting some assersion error I don't know what is the problem
