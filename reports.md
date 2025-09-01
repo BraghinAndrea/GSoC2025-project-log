@@ -196,9 +196,14 @@ submitted the PR and wating for mentor review. Reading documentation for underst
 Solved the building error for the descreet sphere PR. and resarching the documentaion to improve the Unexpected length Error implimentation.  
 # August 29 
 opend PR for discreet sphere and working on Unexpected Section length error, trying to creat test cases to understand how to implement the code <img width="1917" height="1080" alt="image" src="https://github.com/user-attachments/assets/9d2f4186-e62b-488d-be41-e5dc848ee2ac" />
-it seems that the Title option comes at the end, I will try to creat files with multiple options and see if LS-DYNA opens them if I change the order of options. 
+it seems that the Title option comes at the end, I will try to create files with multiple options and see if LS-DYNA opens them if I change the order of options. 
 I did some tests For LS-PrePost , the commands SECTION_SHELL_EFG_TITLE and SECTION_SHELL_TITLE_EFG are the same, but when saving the key word file again LS-PrePost uses this format SECTION_SHELL_EFG_TITL.
 It will take a while to creat all possible cases for testing working on it 
 # August 30
 I have created testing files. for several cases but facing problems converting them. Getting some assersion error I don't know what is the problem. 
 Found the error it's realted to the modifications I did in the privous PR, fixing and will continue to test 
+# August 31
+Spent some more time testing for further investigation that I believe are needed
+#September 1st
+Addressing mentor suggestions following the merging of the previous PR for Discret sphere. Multiple unnamed could be an issue, a clever way of assigning a value different for blank is needed.
+Did further documentation research about different SECTION_SHELL_"type"
