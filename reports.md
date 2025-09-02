@@ -204,6 +204,9 @@ I have created testing files. for several cases but facing problems converting t
 Found the error it's realted to the modifications I did in the privous PR, fixing and will continue to test 
 # August 31
 Spent some more time testing for further investigation that I believe are needed
-#September 1st
+# September 1st
 Addressing mentor suggestions following the merging of the previous PR for Discret sphere. Multiple unnamed could be an issue, a clever way of assigning a value different for blank is needed.
 Did further documentation research about different SECTION_SHELL_"type"
+# September 2nd
+Continued SECTION_SHELL_"" implementation.
+Correction in sphere.h with small PR [here](https://github.com/BRL-CAD/brlcad/pull/199)
