@@ -210,3 +210,6 @@ Did further documentation research about different SECTION_SHELL_"type"
 # September 2nd
 Continued SECTION_SHELL_"" implementation.
 Correction in sphere.h with small PR [here](https://github.com/BRL-CAD/brlcad/pull/199)
+# September 3rd
+Worked on different Section Shell integration and card number variables handling in the parser.
+Needs different test files, multiple variable are in need of testing for different use case scenarios.
