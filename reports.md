@@ -213,3 +213,7 @@ Correction in sphere.h with small PR [here](https://github.com/BRL-CAD/brlcad/pu
 # September 3rd
 Worked on different Section Shell integration and card number variables handling in the parser.
 Needs different test files, multiple variable are in need of testing for different use case scenarios.
+# September 4th
+Focused on refining the parser logic for Section Shell handling. Encountered some difficulties aligning card numbering with different use cases, so additional adjustments will be needed.
+# September 5th
+Attempted to run tests on the recent parser changes. Some inconsistencies appeared in variable assignments that still need careful checking. Planning to revisit the test files and adjust the implementation to resolve the issues.
