@@ -217,3 +217,5 @@ Needs different test files, multiple variable are in need of testing for differe
 Focused on refining the parser logic for Section Shell handling. Encountered some difficulties aligning card numbering with different use cases, so additional adjustments will be needed.
 # September 5th
 Attempted to run tests on the recent parser changes. Some inconsistencies appeared in variable assignments that still need careful checking. Planning to revisit the test files and adjust the implementation to resolve the issues.
+# September 6th
+Further testing and development for card counting approach in k_parser.cpp. Waiting for mentor feedback, confirming the soundness of the proposed approach when for example under just one section_shell multiple cards appear. 
