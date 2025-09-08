@@ -221,3 +221,7 @@ Attempted to run tests on the recent parser changes. Some inconsistencies appear
 Further testing and development for card counting approach in k_parser.cpp. Waiting for mentor feedback, confirming the soundness of the proposed approach when for example under just one section_shell multiple cards appear. 
 # September 7th
 Focused on testing `k_parser.cpp` with different options under `*SECTION_SHELL`. Verified behavior when multiple cards and variations appear, ensuring the parser correctly distinguishes and assigns values. Some cases still require refinement, particularly in handling optional versus mandatory fields with different options.
+# September 8th
+Literature review on CARD1[ELFORM] for *SECTION_SHELL, when ELFORM = 101,102,103,104 or 105 additional cards are generated and need to be handled by parser.cpp. Created keyword files for different sections on toroidal example shape.
+<img width="500" height="500" alt="Toroid" src="https://github.com/user-attachments/assets/e146bbf0-0b61-45b7-a241-7008a7e13220" />
+
