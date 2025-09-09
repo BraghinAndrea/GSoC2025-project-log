@@ -224,4 +224,5 @@ Focused on testing `k_parser.cpp` with different options under `*SECTION_SHELL`.
 # September 8th
 Literature review on CARD1[ELFORM] for *SECTION_SHELL, when ELFORM = 101,102,103,104 or 105 additional cards are generated and need to be handled by parser.cpp. Created keyword files for different sections on toroidal example shape.
 <img width="500" height="500" alt="Toroid" src="https://github.com/user-attachments/assets/e146bbf0-0b61-45b7-a241-7008a7e13220" />
-
+# September 9th
+Facing difficulties in handling the parsing when ELFORM = 101,102,103,104 or 105 and ICOMP = 1, encountering the Unexpected Section length error. Trying to figure a solution out.
