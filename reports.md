@@ -226,3 +226,6 @@ Literature review on CARD1[ELFORM] for *SECTION_SHELL, when ELFORM = 101,102,103
 <img width="500" height="500" alt="Toroid" src="https://github.com/user-attachments/assets/e146bbf0-0b61-45b7-a241-7008a7e13220" />
 # September 9th
 Facing difficulties in handling the parsing when ELFORM = 101,102,103,104 or 105 and ICOMP = 1, encountering the Unexpected Section length error. Trying to figure a solution out.
+
+# September 10th
+Tried introducing boolean operators for keeping track of ELFORM and ICOMP values. Having some problem organizing the parsing of variable number of cards in *SECTION_SHELL
