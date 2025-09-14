@@ -230,5 +230,7 @@ Facing difficulties in handling the parsing when ELFORM = 101,102,103,104 or 105
 Tried introducing boolean operators for keeping track of ELFORM and ICOMP values. Having some problem organizing the parsing of variable number of cards in *SECTION_SHELL
 # September 11th
 Further development, debugging and testing with boolean operators. The logic turned out to be not as reliable as I hoped for. It seems redundand, I will try another way, ideally independent from the number of cards for the same section.
-
-
+# September 12th
+Working on number of card-independent parsing approach for shell sections
+# September 13th
+Similiar issues as before were encountered when the value of Elforms doesn't get stored so the unexpected section length error still occurs. meaning the independency from card number wasn't achieved.
