@@ -234,3 +234,7 @@ Further development, debugging and testing with boolean operators. The logic tur
 Working on number of card-independent parsing approach for shell sections
 # September 13th
 Similiar issues as before were encountered when the value of Elforms doesn't get stored so the unexpected section length error still occurs. meaning the independency from card number wasn't achieved.
+# September 14th
+Revert to boolean operators-based section_shell parsing in k_parser.cpp
+# September 15th
+Further testing. Updated the [pull request](https://github.com/BraghinAndrea/brlcad/commit/26b8cc5bdabcb8bc6b2471f1bbc15bd6dfbe90ce) seeking mentors' feedback
