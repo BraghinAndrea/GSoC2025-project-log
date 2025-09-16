@@ -238,3 +238,5 @@ Similiar issues as before were encountered when the value of Elforms doesn't get
 Revert to boolean operators-based section_shell parsing in k_parser.cpp
 # September 15th
 Further testing. Updated the [pull request](https://github.com/BraghinAndrea/brlcad/commit/26b8cc5bdabcb8bc6b2471f1bbc15bd6dfbe90ce) seeking mentors' feedback
+# September 16th
+Worked k_parser.cpp implementing *SECTION_SHELL option "EFG" following mentor's advice. Updated the above-mentioned PR. It now reads title correctly and adjusts the number of cards for EFG option
