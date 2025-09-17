@@ -240,3 +240,5 @@ Revert to boolean operators-based section_shell parsing in k_parser.cpp
 Further testing. Updated the [pull request](https://github.com/BraghinAndrea/brlcad/commit/26b8cc5bdabcb8bc6b2471f1bbc15bd6dfbe90ce) seeking mentors' feedback
 # September 16th
 Worked k_parser.cpp implementing *SECTION_SHELL option "EFG" following mentor's advice. Updated the above-mentioned PR. It now reads title correctly and adjusts the number of cards for EFG option
+# September 17th
+Worked on updating k_parse.cpp to discard non-geometry cards using the default case for cleaner parsing as suggested. Needs testing
