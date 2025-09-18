@@ -242,3 +242,5 @@ Further testing. Updated the [pull request](https://github.com/BraghinAndrea/brl
 Worked k_parser.cpp implementing *SECTION_SHELL option "EFG" following mentor's advice. Updated the above-mentioned PR. It now reads title correctly and adjusts the number of cards for EFG option
 # September 17th
 Worked on updating k_parse.cpp to discard non-geometry cards using the default case for cleaner parsing as suggested. Needs testing
+# September 18th
+Updated k_parser.cpp. Included THERMAL, XFEM and MISC options. Changed the default logic in switch statement. Updated the [pull request](https://github.com/BraghinAndrea/brlcad/commit/f00e69b34d862a33c925656da99dd6c4ff3582f2).
