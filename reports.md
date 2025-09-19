@@ -244,3 +244,5 @@ Worked k_parser.cpp implementing *SECTION_SHELL option "EFG" following mentor's 
 Worked on updating k_parse.cpp to discard non-geometry cards using the default case for cleaner parsing as suggested. Needs testing
 # September 18th
 Updated k_parser.cpp. Included THERMAL, XFEM and MISC options. Changed the default logic in switch statement. Updated the [pull request](https://github.com/BraghinAndrea/brlcad/commit/f00e69b34d862a33c925656da99dd6c4ff3582f2).
+# September 19th
+Testing with different keyword files, multiple SECTION_SHELL with and without titles or options. Some issues arise whit multiple sections in a file, each one with a title. 
