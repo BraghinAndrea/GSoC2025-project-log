@@ -246,3 +246,5 @@ Worked on updating k_parse.cpp to discard non-geometry cards using the default c
 Updated k_parser.cpp. Included THERMAL, XFEM and MISC options. Changed the default logic in switch statement. Updated the [pull request](https://github.com/BraghinAndrea/brlcad/commit/f00e69b34d862a33c925656da99dd6c4ff3582f2).
 # September 19th
 Testing with different keyword files, multiple SECTION_SHELL with and without titles or options. Some issues arise whit multiple sections in a file, each one with a title. 
+# September 20th
+Changed NumberOfCardInSection to NumberOfCards for better readability and meaning. Still some issues related to right number of card for each configurations, kept testing and debugging. 
