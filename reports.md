@@ -252,3 +252,5 @@ Changed NumberOfCardInSection to NumberOfCards for better readability and meanin
 Worked towards parsing section title and options indepently from order. Still struggling with combination of different section_shell_option with and without title
 # September 23rd 
 Could parse the combined keyword for Thermal and Xfem option with titles but when two sections of the same kind are one after the other in the .k file, the second doesn't get recognised. Debugging and testing continues. 
+# September 24th
+Arrived to a version that appears to be more reliable. Kept testing and updated the [PR](https://github.com/BraghinAndrea/brlcad/commit/a0012380ee2ee42585b9e900a892ef76e91de551)
