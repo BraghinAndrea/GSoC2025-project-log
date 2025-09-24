@@ -248,3 +248,7 @@ Updated k_parser.cpp. Included THERMAL, XFEM and MISC options. Changed the defau
 Testing with different keyword files, multiple SECTION_SHELL with and without titles or options. Some issues arise whit multiple sections in a file, each one with a title. 
 # September 20th
 Changed NumberOfCardInSection to NumberOfCards for better readability and meaning. Still some issues related to right number of card for each configurations, kept testing and debugging. 
+# September 22nd
+Worked towards parsing section title and options indepently from order. Still struggling with combination of different section_shell_option with and without title
+# September 23rd 
+Could parse the combined keyword for Thermal and Xfem option with titles but when two sections of the same kind are one after the other in the .k file, the second doesn't get recognised. Debugging and testing continues. 
