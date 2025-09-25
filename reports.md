@@ -254,3 +254,5 @@ Worked towards parsing section title and options indepently from order. Still st
 Could parse the combined keyword for Thermal and Xfem option with titles but when two sections of the same kind are one after the other in the .k file, the second doesn't get recognised. Debugging and testing continues. 
 # September 24th
 Arrived to a version that appears to be more reliable. Kept testing and updated the [PR](https://github.com/BraghinAndrea/brlcad/commit/a0012380ee2ee42585b9e900a892ef76e91de551)
+# September 25th
+Worked on improving SECTION_SOLID parsing while waiting for mentors' feedback fo SECTION_SHELL. Literature review and .k file generation in LS-DYNA Prepost
