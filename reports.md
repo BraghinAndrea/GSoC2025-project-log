@@ -258,3 +258,5 @@ Arrived to a version that appears to be more reliable. Kept testing and updated 
 Worked on improving SECTION_SOLID parsing while waiting for mentors' feedback fo SECTION_SHELL. Literature review and .k file generation in LS-DYNA Prepost
 # September 26th to 29th
 No noticeable progress due to contributor's sickness (flu). Soon on track again
+# October 1st
+Code clean up, testing and literature review.
