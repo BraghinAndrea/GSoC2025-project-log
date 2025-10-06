@@ -260,3 +260,15 @@ Worked on improving SECTION_SOLID parsing while waiting for mentors' feedback fo
 No noticeable progress due to contributor's sickness (flu). Soon on track again
 # October 1st
 Code clean up, testing and literature review.
+# October 2nd
+Implemented ceil() function for card counting. Tested it and debugged.
+# Ocotber 3rd 
+New mods seem reliable. I continued testing with different *SECTION_SHELL options.
+# October 4th 
+Started cleaning the code. The MISC option rises some issues. LS-DYNA writes some unexpected values in keyword when generating it.
+<img width="500" height="268" alt="MISC_option" src="https://github.com/user-attachments/assets/b572d513-8c9f-41ea-8d43-48d5ab4b28e5" />
+# October 5th
+Opened new [PR](https://github.com/BraghinAndrea/brlcad/commit/ef22044d10c209f2594775a4e316424896e4008a) after code cleaning on a updated fork. 
+# October 6th
+MISC option still unsolved, will ask mentors' opinion as it might not be crucial.
+
