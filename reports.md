@@ -271,4 +271,7 @@ Started cleaning the code. The MISC option rises some issues. LS-DYNA writes som
 Opened new [PR](https://github.com/BraghinAndrea/brlcad/commit/ef22044d10c209f2594775a4e316424896e4008a) after code cleaning on a updated fork. 
 # October 6th
 MISC option still unsolved, will ask mentors' opinion as it might not be crucial.
-
+# October 7th
+MISC issue seems only related to initialization on LS-DYNA. k_parser.cpp now can handle *SECTION_SHELL successfully. Started implementing mentors's suggestions along minor fix.
+# October 8th
+Minor revisions and updated [Pull Req.](https://github.com/BraghinAndrea/brlcad/commit/efb6eb8bfe8358ac3b52efdd6b7ce652e92e7991). 
