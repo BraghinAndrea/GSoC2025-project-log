@@ -275,3 +275,5 @@ MISC option still unsolved, will ask mentors' opinion as it might not be crucial
 MISC issue seems only related to initialization on LS-DYNA. k_parser.cpp now can handle *SECTION_SHELL successfully. Started implementing mentors's suggestions along minor fix.
 # October 8th
 Minor revisions and updated [Pull Req.](https://github.com/BraghinAndrea/brlcad/commit/efb6eb8bfe8358ac3b52efdd6b7ce652e92e7991). 
+# October 9th
+Literature review, further testing on MISC initialization issues. Research of test dummy models. Found some in [this page](https://www.nhtsa.gov/file-downloads?p=nhtsa/downloads/).
