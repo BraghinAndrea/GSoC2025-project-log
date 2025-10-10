@@ -277,3 +277,5 @@ MISC issue seems only related to initialization on LS-DYNA. k_parser.cpp now can
 Minor revisions and updated [Pull Req.](https://github.com/BraghinAndrea/brlcad/commit/efb6eb8bfe8358ac3b52efdd6b7ce652e92e7991). 
 # October 9th
 Literature review, further testing on MISC initialization issues. Research of test dummy models. Found some in [this page](https://www.nhtsa.gov/file-downloads?p=nhtsa/downloads/).
+# October 10th
+*INCLUDE_TRANSFORM literature review and testing with Toyota Yaris .k files. Started implementing changes in k_parser.cpp
