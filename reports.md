@@ -283,3 +283,11 @@ Literature review, further testing on MISC initialization issues. Research of te
 Worked on *INCLUDE_TRANSFORM implementation, transformations formulation.
 # October 13th
 Implementing *DEFINE_TRANSFORMATION for *INCLUDE_TRANSOFRM. Preliminary testing via Toyota Yaris .k files
+# October 14th
+Debugging and testing around *INCLUDE_TRANSFORM. Found a formatting issue in fixed_ground.k
+# October 15th
+Successfully converted the two files using the *INCLUDE_TRANSFORM and *INCLUDE. Updated k_parser.cpp Opening a new PR asking mentors' feedbacks.
+
+<img width="500" height="500" alt="Toyota - Include_transform" src="https://github.com/user-attachments/assets/6f31d67e-a590-4e9e-a6b1-839ea21cf0fa" />
+
+The two keyword files are now both being converted through *INCLUDE keyword.
