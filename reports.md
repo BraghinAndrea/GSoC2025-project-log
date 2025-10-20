@@ -293,3 +293,12 @@ Successfully converted the two files using the *INCLUDE_TRANSFORM and *INCLUDE. 
 The two keyword files are now both being converted through *INCLUDE keyword.
 # October 16th
 Further testing. Formatting the code and opened a [Pull Request](https://github.com/BraghinAndrea/brlcad/tree/INCLUDE_TRANSFORM).
+# October 17th
+Refinements for *SECTION_SOLID, testing and code cleaning
+# October 18th
+Experimented with Transformations in LS-DYNA for testing *INCLUDE_TRANSFORM
+# October 19th
+Upon mentor's feedback I worked on improving *SECTION_SOLID robustness by being not sensitive on card format if optional cards are activated.
+# October 20th
+Testing for *SECTION_SOLID, updated [PR](https://github.com/BRL-CAD/brlcad/commit/7b77bcd47d28c2036ff5eacab58f3a28fe98f80f)
+Worked on mentor's feedback for *INCLUDE_TRANSFORM
