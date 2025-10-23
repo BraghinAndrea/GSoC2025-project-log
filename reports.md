@@ -302,3 +302,12 @@ Upon mentor's feedback I worked on improving *SECTION_SOLID robustness by being 
 # October 20th
 Testing for *SECTION_SOLID, updated [PR](https://github.com/BRL-CAD/brlcad/commit/7b77bcd47d28c2036ff5eacab58f3a28fe98f80f)
 Worked on mentor's feedback for *INCLUDE_TRANSFORM
+# October 21st
+Run tests for *INCLUDE_TRANSFORM. It can detect rotation, translation and scale transformations. The Toyota Yaris .k file with *INCLUDE_TRANSFORM gave good results as follows:
+
+<img width="500" height="500" alt="transformation" src="https://github.com/user-attachments/assets/a3bab3af-ea5c-4285-892f-cfe42dcd16a6" />
+
+# October 22nd
+Reviewed mentor's feedbacks, worked on them for *INCLUDE_TRANSFORM. It needs to consider multiple transformations.
+
+Started to write the final report - [here](https://github.com/BraghinAndrea/GSoC2025-project-log/blob/main/final-report.md)
