@@ -25,18 +25,41 @@ Drove multiple PRs from prototype → review → merge, with iterative fixes fro
 
 ## Key Deliverables
 
+Considering BRL-CAD fundamental approach of creating a geometry from boolean operation on
+primitives, one can transform any element or mesh in LS-DYNA to a BRL-CAD geometry.
+Extensive work has been done by previous years’ contributors but a noticeable number of
+elements, commands and sections was still in need of implementation. I adopted a sweeping
+approach based on LS-DYNA documentation assessing the objects that can be converted to
+geometry allowing the successful conversion of a noticeably larger number of .k files.
+
+Addressing previous work suggestion found on the organization comm. channel (on Zulip) I started testing the conversion of Toyota veichles keywords file found at [this page](https://www.dynaexamples.com/implicit/yaris-static-suspension-system-loading/) and THUMS crash body models [here](https://www.toyota.co.jp/thums/).
+
+Many parts weren't being converted as not yet implemented in the k-g converter. So the first period has been about implementing new key missing elements in order to expand the converter capabilities.
+
+LS-DYNA documentation has been followed throughout the whole project and taken as reference point. Link to the developer manuals can be found at the end of this report.
+
 ### Seatbelt
-Implemented *ELEMENT_SEATBELT + *SECTION_SEATBELT.
+The successfull implemented of *ELEMENT_SEATBELT and *SECTION_SEATBELT allows the converter to handle such instances. It is now able to detect the two possibile types of Element_Seatbelt that can be generated in LS-DYNA. The first being a 2d line and the latter a shell-based geometry. By leveraging the node numbering the parser can store valuable geometrical ingormations needed for the graphical representation.
+
+The following pictures represents the LS-DYNA model and the shell-made seatbelt.
 
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/9c0f0de9-0cdc-4adf-b1ec-858d1d1e56c7" /> 
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/03b9e88b-a752-40fd-9747-85c2c96636f5" />
 
-Support for both 1D and 2D (shell-based) seatbelts.
+A test example with both seatbelt types generated at the same time was created and successfully converted as shown in mged below:
 
-Wrote geometry to BRL-CAD using LS-PrePost coordinates; integrated seatbelt loop into the main converter loop.
+<img width="500" height="500" alt="07July" src="https://github.com/user-attachments/assets/3feacbf2-4299-468c-91b0-aff424e04c2c" />
+
+
+The geometry was imported in BRL-CAD maintaining LS-PrePost coordinates and the relative code well integrated into the main k-g converter loop. in k-g.cpp
+
+Relative pull request can be found [here](https://github.com/BRL-CAD/brlcad/pull/194).
 
 ### Discrete Spheres
-Implemented *ELEMENT_DISCRETE_SPHERE parsing and conversion.
+The challange of implementing physical particles was accepted as the representation of *ELEMENT_DISCRETE_SPHERE can be an interesting aspect for BRL-CAD. *ELEMENT_DISCRETE_SPHERE can be used in various FEA models and the ability to convert it can result in a appealing software carachteristic.
+Its implementation required new important formulations that can be found at [this pull request history](https://github.com/BRL-CAD/brlcad/pull/198#event-19425863706).
+
+An example of converted geometry for a box full with particles of various random dimensions can be found below: 
 
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/687b6c7c-ed0a-476a-b8f1-bcedd0510781" /> 
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/7e8b3beb-8433-4ebd-873d-2d3f21abf7b9" />
@@ -90,4 +113,5 @@ Keep iterating on the INCLUDE_TRANSFORM PR per mentor feedback (edge transforms,
 Huge thanks to BRL-CAD and my mentors Sean and Ali for reviews, design discussions, and guidance.
 
 BRL-CAD — [GitHub repo](https://github.com/BRL-CAD/brlcad)
+LS-DYNA documentation - [here](https://lsdyna.ansys.com/manuals/)
 
