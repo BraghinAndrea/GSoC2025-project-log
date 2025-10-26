@@ -10,17 +10,15 @@ Mentors: **Sean Morrison & Ali Haydar**
 
 Period: June–October 2025
 
-Repo (reports & plan): [GSoC2025-project-log](https://github.com/BraghinAndrea/GSoC2025-project-log/tree/main) 
+Repo (daily reports & plan): [GSoC2025-project-log](https://github.com/BraghinAndrea/GSoC2025-project-log/tree/main) 
 
 ## Abstract
 This project is intended to improve the interoperability between LS‑DYNA and BRL‑CAD by enhancing the existing k‑g converter. 
 The primary goal is to facilitate a seamless data exchange between LS‑DYNA keyword files and BRL‑CAD geometry databases, ultimately streamlining workflows for users who need to transition between advanced simulation and detailed geometric modeling.
 
-
 ## Scope
 
-Extended the BRL-CAD k-g LS-DYNA keyword converter with new elements, sturdier parsing, and transformation support.
-
+Extended the BRL-CAD k-g LS-DYNA keyword converter with new elements, sturdier parsing, and transformation support alongide error and small bugs fixing.
 Drove multiple PRs from prototype → review → merge, with iterative fixes from mentors feedbacks.
 
 ## Key Deliverables
@@ -32,9 +30,9 @@ elements, commands and sections was still in need of implementation. I adopted a
 approach based on LS-DYNA documentation assessing the objects that can be converted to
 geometry allowing the successful conversion of a noticeably larger number of .k files.
 
-Addressing previous work suggestion found on the organization comm. channel (on Zulip) I started testing the conversion of Toyota veichles keywords file found at [this page](https://www.dynaexamples.com/implicit/yaris-static-suspension-system-loading/) and THUMS crash body models [here](https://www.toyota.co.jp/thums/).
+Addressing previous work suggestion found on the preferred organization communication channel on Zulip I started testing the conversion of Toyota veichles .k file found on [this page](https://www.dynaexamples.com/implicit/yaris-static-suspension-system-loading/) and THUMS crash body models [here](https://www.toyota.co.jp/thums/).
 
-Many parts weren't being converted as not yet implemented in the k-g converter. So the first period has been about implementing new key missing elements in order to expand the converter capabilities.
+Many parts\elements weren't being converted as not yet implemented in the k-g converter. So the first period has been about implementing new key missing elements in order to expand the converter capabilities.
 
 LS-DYNA documentation has been followed throughout the whole project and taken as reference point. Link to the developer manuals can be found at the end of this report.
 
@@ -57,7 +55,7 @@ Relative pull request can be found [here](https://github.com/BRL-CAD/brlcad/pull
 
 ### Discrete Spheres
 The challange of implementing physical particles was accepted as the representation of *ELEMENT_DISCRETE_SPHERE can be an interesting aspect for BRL-CAD. *ELEMENT_DISCRETE_SPHERE can be used in various FEA models and the ability to convert it can result in a appealing software carachteristic.
-Its implementation required new important formulations that can be found at [this pull request history](https://github.com/BRL-CAD/brlcad/pull/198#event-19425863706).
+Its implementation required new formulations that can be found at [this pull request history](https://github.com/BRL-CAD/brlcad/pull/198#event-19425863706).
 
 An example of converted geometry for a box full with particles of various random dimensions can be found below: 
 
@@ -75,6 +73,10 @@ Supported options: EFG, THERMAL, XFEM, MISC.
 SECTION_SOLID: Improved resilience to optional-card formats.
 
 Resolved multiple “Unexpected … length” errors; added NumberOfCards tracking.
+<img width="500" height="500" alt="partial Yaris" src="https://github.com/user-attachments/assets/ad9e392e-8be5-4153-95e1-2ef5ff88a2c5" />
+
+<img width="500" height="500" alt="image-1761508624236" src="https://github.com/user-attachments/assets/af68d434-1244-4e4f-920e-eca0cb23f36a" />
+<img width="500" height="500" alt="image-1761508622235" src="https://github.com/user-attachments/assets/a5dc2e30-a584-4f86-a194-98bd94860964" />
 
 ### Include/Transformations
 
@@ -91,7 +93,7 @@ Validated on Toyota Yaris keyword sets; both *INCLUDE and *INCLUDE_TRANSFORM pat
 
 Jun 2–7: Seatbelt prototype; initial tests; geometry output started.
 
-Jun 30–Jul Seatbelt integrated into main loop; PR opened.
+Jun 30–Jul Seatbelt integrated into main k-g.cpp loop; PR opened.
 
 Jul 7–12: Fixed shell seatbelt bugs; Discrete Sphere parsing & PR added.
 
@@ -101,17 +103,19 @@ Sep 16–24: Big upgrade to SECTION_SHELL (EFG/THERMAL/XFEM/MISC, titles, option
 
 Oct 10–20: Implemented INCLUDE_TRANSFORM + DEFINE_TRANSFORMATION; followed up on SECTION_SOLID robustness.
 
-
-
-
-
 Keep iterating on the INCLUDE_TRANSFORM PR per mentor feedback (edge transforms, formatting guards).
 
 
 ## Acknowledgements
+I would like to thank the whole Google Summer of Code organization for provind such a successfull program uplifting young developers and the open source community.
+I had the opportunity to test myself, learn and ultimately grow as a person even. This project covered a long stretch of time in my case, I am greateful for the flexible scheduling I was allowed to follow.
 
 Huge thanks to BRL-CAD and my mentors Sean and Ali for reviews, design discussions, and guidance.
 
+Frankly this was not the GSoC I was hoping for but it became a companion throughtout difficulties, ups and downs. An important step in my journey I'll be always proud of.  
+
+
 BRL-CAD — [GitHub repo](https://github.com/BRL-CAD/brlcad)
+
 LS-DYNA documentation - [here](https://lsdyna.ansys.com/manuals/)
 
