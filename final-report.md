@@ -4,7 +4,7 @@
 
 **Improving the k-File to BRL-CAD Converter & proposal for BRL-CAD database to k-File converter.**
 
-Contributor:**Andrea Braghin**, Italy
+Contributor: **Andrea Braghin**, Italy
 
 Mentors: **Sean Morrison & Ali Haydar**
 
@@ -62,48 +62,50 @@ An example of converted geometry for a box full with particles of various random
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/687b6c7c-ed0a-476a-b8f1-bcedd0510781" /> 
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/7e8b3beb-8433-4ebd-873d-2d3f21abf7b9" />
 
-
-
 ### Section Parsing improvements
 
 SECTION_SHELL: Built a robust, card-counting approach that tolerates titles, option order, and multiple sections under a single keyword.
-
+Various configurations of options for *SECTION_SHELL were considered based on LS-DYNA reference manual
 Supported options: EFG, THERMAL, XFEM, MISC.
 
-SECTION_SOLID: Improved resilience to optional-card formats.
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/18946862-8a76-45a7-a80d-d8f3b492faf8" />
 
-Resolved multiple “Unexpected … length” errors; added NumberOfCards tracking.
+SECTION_SOLID: resolved multiple “Unexpected … length” errors. The newly added NumberOfCards tracking has been expanded to SECTION_SOLID as well.
+The new improved code helped converting all the .k file that previosly resulted in a partially converted vehicle as shown below:
+
 <img width="500" height="500" alt="partial Yaris" src="https://github.com/user-attachments/assets/ad9e392e-8be5-4153-95e1-2ef5ff88a2c5" />
+
+The improved k-g converter version can now handle it better with no evident missing part as follow in these pictures:
 
 <img width="500" height="500" alt="image-1761508624236" src="https://github.com/user-attachments/assets/af68d434-1244-4e4f-920e-eca0cb23f36a" />
 <img width="500" height="500" alt="image-1761508622235" src="https://github.com/user-attachments/assets/a5dc2e30-a584-4f86-a194-98bd94860964" />
 
+History and [pull requests](https://github.com/BRL-CAD/brlcad/pull/203)
 ### Include/Transformations
 
-Implemented *INCLUDE_TRANSFORM with *DEFINE_TRANSFORMATION.
+Implemented *INCLUDE_TRANSFORM with *DEFINE_TRANSFORMATION following the *INCLUDE keyword already present.
+This work is still in progress, a first draft pull request can be found [here](https://github.com/BraghinAndrea/brlcad/commit/396f59409f5e5e847038ad66cc79ef9e732299e3).
+
+It seems now able to follow the *INCLUDE_TRANSFORM keyword and apply the transformations described through *DEFINE_TRANSFORMATION. An example can be seen below as the .k file calls for the conversion of both the car and the ground from two separate files. For testing purposes a 90° rotation was added and correctly caught from the the converter.
+
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/e73a3f3e-0204-4af8-a562-fb0db2270622" />
 <img width="500" height="500" alt="transformation" src="https://github.com/user-attachments/assets/120134c6-ece8-49fe-821d-f61662277a44" />
 
-
-Validated on Toyota Yaris keyword sets; both *INCLUDE and *INCLUDE_TRANSFORM paths convert.
-
-
+Extensive work can still be done on formatting, transformations implementation and testing for *INCLUDE_TRANSFORM card.
 
 ## Milestones (high-level)
 
-Jun 2–7: Seatbelt prototype; initial tests; geometry output started.
+Jun 2–7: Seatbelt prototype, initial tests.
 
-Jun 30–Jul Seatbelt integrated into main k-g.cpp loop; PR opened.
+Jun 30–Jul Seatbelt integrated into main k-g.cpp loop, PR opened.
 
-Jul 7–12: Fixed shell seatbelt bugs; Discrete Sphere parsing & PR added.
+Jul 7–12: Fixed shell seatbelt bugs, Discrete Sphere parsing & PR added.
 
-Aug 18–29: DSphere PR updated; major push on “Unexpected length” errors; created comprehensive test cases.
+Aug 18–29: DSphere PR updated, major push on “Unexpected length” errors, created comprehensive test cases for *SECTION_SHELL.
 
 Sep 16–24: Big upgrade to SECTION_SHELL (EFG/THERMAL/XFEM/MISC, titles, option order independence).
 
-Oct 10–20: Implemented INCLUDE_TRANSFORM + DEFINE_TRANSFORMATION; followed up on SECTION_SOLID robustness.
-
-Keep iterating on the INCLUDE_TRANSFORM PR per mentor feedback (edge transforms, formatting guards).
+Oct 10–20: Implemented INCLUDE_TRANSFORM + DEFINE_TRANSFORMATION, followed up on SECTION_SOLID robustness.
 
 
 ## Acknowledgements
