@@ -1,6 +1,6 @@
 # GSoC 2025 — Final Report
 
-## Organization: BRL-CAD
+## Organization: [BRL-CAD](https://github.com/BRL-CAD/brlcad)
 
 **Improving the k-File to BRL-CAD Converter & proposal for BRL-CAD database to k-File converter.**
 
@@ -116,6 +116,7 @@ Huge thanks to BRL-CAD and my mentors Sean and Ali for reviews, design discussio
 
 Frankly this was not the GSoC I was hoping for but it became a companion throughtout difficulties, ups and downs. An important step in my journey I'll be always proud of.  
 
+## Useful links
 
 BRL-CAD — [GitHub repo](https://github.com/BRL-CAD/brlcad)
 
