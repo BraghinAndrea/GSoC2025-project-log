@@ -311,3 +311,9 @@ Run tests for *INCLUDE_TRANSFORM. It can detect rotation, translation and scale 
 Reviewed mentor's feedbacks, worked on them for *INCLUDE_TRANSFORM. It needs to consider multiple transformations.
 
 Started to write the final report - [here](https://github.com/BraghinAndrea/GSoC2025-project-log/blob/main/final-report.md)
+
+# October 23rd
+Literature review for *DEFINE_TRANSFORMATION keyword. Worked on final report draft
+
+# October 26th
+Final report submission
